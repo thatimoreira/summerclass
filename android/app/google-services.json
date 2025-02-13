@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1012647152886",
+    "project_id": "summerclass2025-45bfa",
+    "storage_bucket": "summerclass2025-45bfa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012647152886:android:2cbdb284d7ad4e590af0d7",
+        "android_client_info": {
+          "package_name": "uff.summerclass.summerclass2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcbd_03fmTM-qGle4WjcTXwZEXSJsYAYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
