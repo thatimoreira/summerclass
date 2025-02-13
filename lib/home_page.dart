@@ -43,7 +43,14 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text("Summer class 2"),
+        title: const Text("Filmes nacionais"),
+        centerTitle: true,
+        actions: const [
+          IconButton(
+              onPressed: null,
+              icon: Icon(Icons.refresh)
+          )
+        ],
       ),
       body: SafeArea(
         child: Column(
@@ -53,10 +60,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     titles: titles,  // required
                     images: images,  // required
                     textStyle: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold), // optional
-                    onSelectedItem: (index) { // optional
-                      debugPrint(titles[index]);
-                    },
-                    initialPage: 0, // optional
+                    onSelectedItem: onSelectedItem,
+                    initialPage: 1, // optional
                     align : ALIGN.CENTER, // optional
                     physics : ClampingScrollPhysics() // optional
                 ),
